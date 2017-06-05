@@ -1,2 +1,4 @@
 $ ssh-keygen -t rsa -C "your_email@youremail.com"
 The config parameter for each adapter depends on the module used. As an example, postgres uses database for the database name whereas MongoDB uses dbName. Model doesn't try to standardize the config for each adapter. Instead it just passes the config you give it in createAdapter to the NPM module. To check the config setup for your adapter go to the module's official site and look at their docs.
+
+master branch
